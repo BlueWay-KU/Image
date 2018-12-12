@@ -1,5 +1,4 @@
-# Image
-Image
+# Install OpenCV on Computer
 
 ## 1. Anaconda 설치 (프로그래밍 언어 python과 다양한 library가 포함된 패키지)
 
