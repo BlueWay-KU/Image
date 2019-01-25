@@ -104,14 +104,16 @@ def predict(model_data_path, image_path):
 
         return pred
 
+# Output of dehaze and depth
 result = dehaze('cones.jpg')
 result = predict('NYU_FCRN.ckpt', 'output_dehaze.jpg')
 
+# Check Blocked
 x = len(result[0][0]) #160
 y = len(result[0]) #128
 
 # result = [0][127][159] = [0][y][x] m
-#result[0][47:79][59:99]
+# result[0][47:79][59:99]
 x_a, x_m, x_b = x/2 - x/4, x/2, x/2 + x/4
 y_a, y_m, y_b = y/2 - y/4, y/2, y/2 + y/4
 
@@ -119,7 +121,19 @@ for i in range(31, 96):
     for j in range(39, 80):
         cal = np.mean(result[0][i][j])
 
+# 0 is OK, 1 is Blocked
+block = 0
+
 if cal < 2:
-    print('Blocked')
+    #print('Blocked')
+    block = 1
 elif cal >=2 :
-    pass
+    block = 0
+
+# Save DB
+import requests
+import json
+
+ID = 3
+data = {"ID": ID, "DATA": block}
+r = requests.get("http://dbwo4011.cafe24.com/KO/KOREA/saveData.php", params=data)
