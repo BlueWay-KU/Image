@@ -7,7 +7,11 @@ A. Pair the drone's raspberry pi bluetooth module and the fire detector bluetoot
 
 B. run each code on RPi
 
-- Drone RPi: aBLE.py
+- Drone RPi
+
+- aBLE.py
+
+- func.py
 
 - Fire Alarm RPi:
   
@@ -23,8 +27,11 @@ C. If the user's rescue request is made, the drones will fly to that location an
 
 - Drone RPi
 
--- BlueWay.py
--- func.py
+- BlueWay.py
+
+- func.py
+
+- iBeacon-scanner
 
 - Fire Alarm RPi:
 
