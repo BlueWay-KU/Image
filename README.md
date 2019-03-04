@@ -2,7 +2,11 @@
 
 ## 1-1. aBLE
 
-<ol> Pair the drone's raspberry pi bluetooth module and the fire detector bluetooth module hc-06 </ol>
+<ol> 
+  Pair the drone's raspberry pi bluetooth module and the fire detector bluetooth module hc-06 
+  Hi
+  Hello
+</ol>
 
   
 ## 1-2. BlueWay
