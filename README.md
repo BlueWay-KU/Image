@@ -1,5 +1,17 @@
 # 1. Flight Code
 
+## 1-1. aBLE
+
+<ol> Pair the drone's raspberry pi bluetooth module and the fire detector bluetooth module hc-06
+hi
+  hi
+<ol>
+  
+## 1-2. BlueWay
+
+- Drone RPi
+
+- Fire Alarm RPi
 
 
 # 2. Install OpenCV on Computer
