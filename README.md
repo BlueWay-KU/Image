@@ -21,6 +21,15 @@ B. The drones monitor the database of the server where the user's rescue request
 
 C. If the user's rescue request is made, the drones will fly to that location and evacuate the user through fire and obstacle free roads.
 
+- Drone RPi
+
+-- BlueWay.py
+-- func.py
+
+- Fire Alarm RPi:
+
+
+
 
 # 2. Install OpenCV on Computer
 
