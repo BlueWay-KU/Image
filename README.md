@@ -2,18 +2,24 @@
 
 ## 1-1. aBLE
 
-<ol> 
-  Pair the drone's raspberry pi bluetooth module and the fire detector bluetooth module hc-06 
-  Hi
-  Hello
-</ol>
+A. Pair the drone's raspberry pi bluetooth module and the fire detector bluetooth module hc-06.
 
+
+B. run each code on RPi
+
+- Drone RPi: aBLE.py
+
+- Fire Alarm RPi:
   
 ## 1-2. BlueWay
 
-- Drone RPi
+A. The fire detector continuously sends the detected result to the server.
 
-- Fire Alarm RPi
+
+B. The drones monitor the database of the server where the user's rescue request, fire detection, and presence of obstacles are stored.
+
+
+C. If the user's rescue request is made, the drones will fly to that location and evacuate the user through fire and obstacle free roads.
 
 
 # 2. Install OpenCV on Computer
