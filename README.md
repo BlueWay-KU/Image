@@ -16,7 +16,7 @@ https://www.anaconda.com/download/
 
 더 진행하다가 선택하는 거에서 Add anaconda to the system PATH environment variable도 같이 선택
 
-## 2-2. Pycharm 설치 (C언어의 Visual Studio 같은 Python 실행하는 툴 중 한가지)
+## 2-2. Pycharm 설치 (C언어의 Visual Studio 같은 Python 실행하는 툴)
 
 자신의 랩탑 환경에 맞게 설치 (professional 버전은 1달 무료지만 학교 이메일로 등록하면 1년 라이센스로 사용 가능(그리고 카톡 친구에 사용 인증하면 스타벅스 줌/community 버전은 쭉 무료)
 
