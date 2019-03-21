@@ -48,7 +48,7 @@ https://www.anaconda.com/download/
 
 ### 2-1-1. 설치 중
 
-진행하다가 선택하는 거에서 All Users 선택
+진행하다 "Insatll for"에서 All Users 선택
 
 더 진행하다가 선택하는 거에서 Add anaconda to the system PATH environment variable도 같이 선택
 
